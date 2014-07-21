@@ -1,0 +1,235 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Google Play - 도서</title>
+	</head>
+
+	<body>
+
+		<div id="header">
+			<span id="logo"></span>
+				<div><a href = ""><img src = "http://i.imgur.com/V6ibHCq.png"></a> </div>
+			
+			<div id = "search">
+				<input id="search" type="text" placeholder=" 			  검색 ">
+				<div><a href = ""><img src = "http://i.imgur.com/apqBdxg.png"></a></div>
+		</div>
+
+		<ul>
+			<li type="None"><a href = "">+Jisu</a></li>
+			<li type="None"><a href = ""><img src = "http://i.imgur.com/wb7gcUM.png"></a></li>
+			<li type="None"><a herf = ""><img src = "http://i.imgur.com/HGdvqjW.png"></a></li>
+			<li type="None"><a href = "">공유</a></li>
+			<li type="None"><a href = ""><img height = 50 width=60 src = "http://i.imgur.com/j5YZWX5.jpg"></a></li>
+		</ul>
+
+
+
+		<div id="fixedmenu">
+			<li type="None" id="leftmenu">
+				<div id="arrow"></div>
+
+				<ul>
+					<li type="None" id="selected"> <img src = "http://i.imgur.com/n0De6x4.png"></li>
+					<li type="None"><a href="">내 책</li>
+					<li type="None"><a href="">쇼핑하기</li>
+					<li type="None"></li>
+					<li type="None"></li>
+					<li type="None"></li>
+				</ul>
+			</li>
+
+			<li type="None" id="genre">장르</li>
+				<ul = "genre">
+					<li type="None"><a href = "">가족 / 관계</a></li>
+					<li type="None"><a href = "">건강 / 웰빙</a></li>
+					<li type="None"><a href = "">경영 / 경제</a></li>
+					<li type="None"><a href = "">등등</a></li>
+					<li type="None"><a href = "">등</a></li>
+					</ul>
+			</li>
+			<!-- 밑으로 향하는 화살표 이미지 추가, 세로 구분선 추가 -->
+
+			<!-- '장르' 옆에 세로선을 넣는 부분인데 뭔가 이상하다. 다시 구현해야할 듯 -->
+			<li type="None"> <HR WIDTH=2 SIZE=25> </li>
+			<!-- <HR WIDTH=10 SIZE=100 NOSHADE>  -->
+
+
+			<li type="None" style="border-bottom:3px solid RGBA(26,170,220,1); height:30px; width:40px">홈</li>
+
+			<li type="None"><a href="">인기차트</li>
+			<li type="None"><a href="">신간</li>
+
+			<ul>
+				<li type="None"><a href = ""><img src = "http://i.imgur.com/UUppIeK.png"></a></li>
+				<li type="None"><a href = ""><img src = "http://i.imgur.com/oRsPU3d.png"></a></li>
+			</ul>
+
+
+			<div id="container">
+				<div class="books">
+					<div class="bookheader">
+						<h1>주간 베스트셀러</h1>
+						<span class="morebooks"><a href=""><img src = "http://i.imgur.com/7TLxcLX.png"></span>
+					</div>
+
+					<div class="bookcontainer">
+						<li type="None">
+							<span class="bookimage">
+								<a href="http://imgur.com/2m9ZTnU"><img src="http://i.imgur.com/2m9ZTnU.jpg" title="Hosted by imgur.com" /></a>
+								<span class="imghover"></span>
+							</span>
+							<div class="detail">
+								<a class="booktitle">잡담이 능력이다</a><br>
+								<a class="author">사이토 다카시</a><br>
+								<a class="price">₩9,100</a>
+							</div>
+						</li>
+
+						<li type="None">
+							<span class="bookimage">
+								<a href="http://imgur.com/OoQKR75"><img src="http://i.imgur.com/OoQKR75.jpg" title="Hosted by imgur.com" /></a>
+								<span class="imghover"></span>
+							</span>
+
+							<div class="detail">
+								<a class="booktitle">내일</a><br>
+								<a class="author">기욤 뮈소</a><br>
+								<a class="price">₩9,000</a>
+							</div>
+						</li>
+
+						<li type="None">
+							<span class="bookimage">
+								<a href="http://imgur.com/cNSHLc0"><img src="http://i.imgur.com/cNSHLc0.jpg" title="Hosted by imgur.com" /></a>
+								<span class="imghover"></span>
+							</span>
+
+							<div class="detail">
+								<a class="booktitle">정글만리1</a><br>
+								<a class="author">조정래</a><br>
+								<a class="price">₩8,100</a>
+							</div>
+						</li>
+
+						<li type="None">
+							<span class="bookimage">
+								<a href="http://imgur.com/FPoqwpC"><img src="http://i.imgur.com/FPoqwpC.jpg" title="Hosted by imgur.com" /></a>
+								<span class="imghover"></span>
+							</span>
+
+							<div class="detail">
+								<a class="booktitle">데일의 카네기의 자기</a><br>
+								<!-- 기 부터 흐릿하게 표시되어야 한다-->
+
+								<a class="author">데일 카네기</a><br>
+								<!-- 별점이 4개이다. 별을 추가해줘야 한다.-->
+
+								<a class="price">₩3,000</a>
+							</div>
+						</li>
+
+						<li type="None">
+							<span class="bookimage">
+								<a href="http://imgur.com/1rrFnoP"><img src="http://i.imgur.com/1rrFnoP.jpg" title="Hosted by imgur.com" /></a>
+								<span class="imghover"></span>
+							</span>
+								
+							<div class="detail">
+								<a class="booktitle">젊은 베르테르의 슬</a><br>
+								<!-- 슬은 흐릿하게 표시해야 한다.-->
+
+								<a class="author">요한 볼프강 폰 괴테</a><br>
+
+								<a class="price">₩1,500</a>
+							</div>
+						</li>
+					</div>
+				</div>
+
+
+				<div class="books">
+					<div class="bookheader">
+						<h1>맞춤 추천</h1>
+						<span class="morebooks"><a href=""><img src = "http://i.imgur.com/7TLxcLX.png"></span>
+					</div>
+
+					<div class="bookcontainer">
+						<li type="None">
+							<span class="bookimage">
+								<a href = "http://i.imgur.com/ZiYLBs5.jpg"><img src="http://i.imgur.com/ZiYLBs5.jpg"></a>
+								<span class="imghover"></span>
+							</span>
+
+							<div class="detail">
+								<a class="booktitle">출퇴근 한뼘지식 시리즈</a><br>
+								<a class="author">과학동아디지털</a><br>
+								<a class="price">무료</a><br>
+								<a class="explain">출퇴근 한뼘 지식 시리즈<br>by 과학동아 체험판2 독자</a>
+							</div>
+						</li>
+
+						<li type="None">
+							<span class="bookimage">
+								<a href =""><img src = "http://i.imgur.com/6P9J2zj.jpg"></a>
+								<span class="imghover"></span>
+							</span>
+
+							<div class="detail">
+								<a class="booktitle">서바이벌 연애의 법칙</a><br>
+								<a class="author">과학동아디지</a><br>
+								<a class="price">₩1,200</a><br>
+								<a class="explain">출퇴근 한뼘 지식 시리즈<br>by 과학동아 체험판2 독자</a>
+							</div>
+						</li>
+
+						<li type="None">
+							<span class="bookimage">
+								<a href = "http://i.imgur.com/ZiYLBs5.jpg"><img src="http://i.imgur.com/hvyhgPy.jpg"></a>
+								<span class="imghover"></span>
+							</span>
+
+							<div class="detail">
+								<a class="booktitle">장미와 찔레 2:</a><br>
+								<a class="author">조동성 김성</a><br>
+								<a class="price">₩5,000</a><br>
+								<a class="explain">[특별 무료공개]장미와 찔<br>레 독자의 인기 콘텐츠</a>
+							</div>
+						</li>
+
+						<li type="None">
+							<span class="bookimage">
+								<a href = "http://i.imgur.com/ZiYLBs5.jpg"><img src="http://i.imgur.com/yXq92BE.jpg"></a>
+								<span class="imghover"></span>
+							</span>
+
+							<div class="detail">
+								<a class="booktitle">뇌의 비밀(스트레스</a><br>
+								<a class="author">과학동아디지털</a><br>
+								<a class="price">₩1,200</a><br>
+								<a class="explain">인기도서</a>
+							</div>
+						</li>
+
+						<li type="None">
+							<span class="bookimage">
+								<a href = "http://i.imgur.com/ZiYLBs5.jpg"><img src="http://i.imgur.com/IZ4pMFJ.jpg"></a>
+								<span class="imghover"></span>
+							</span>
+
+							<div class="detail">
+								<a class="booktitle">지금 무얼 듣고 있나</a><br>
+								<a class="author">과학동아디지털</a><br>
+								<a class="price">₩1,200</a><br>
+								<a class="explain">출퇴근 한뼘 지식 시리즈<br>by 과학동아 체험판2 독자</a>
+							</div>
+						</li>
+
+					</div>
+				</div>
+			</div>
+
+	</body>
+
+</html>
